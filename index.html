@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulkano | Agencia de Publicidad Puerto Montt</title>
+    <meta name="description" content="Tu marca en buenas manos">
+    <meta name="keywords" content="Agencia de Publicidad Puerto Montt">
+    <link rel="shortcut icon" href="./img/LogoVulkano.ico" type="image/x-icon">
+    <link rel="stylesheet" rel=preload href="./css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-179380420-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-179380420-1');
+    </script>
+
+</head>
+<body>
+    <div id="fixed">
+        <a class="btn-back-to-index" href="#menu"> <img src="./img/icon-up.svg" alt="Icono Flecha Arriba"> </a>
+        <a class="whatsapp" target="_blank" href="https://api.whatsapp.com/send?phone=56984052367&text=Contacto%20Página%20Web%20Agencia%20Vulkano"> <img src="./img/whatsapp-icon.svg" alt="Logo whatsapp"> </a>
+    </div>
+    <section class="banner" id="sec">
+    <header >
+        <div id="menu">
+            <div class="container">         
+                <a href="index.html" title="Volver Inicio"> 
+                    <img src="img/LogoVulkano-01.png" alt="Logo Agencia de Publicida Vulkano"> 
+                </a>
+                <div id="toggle" onclick="toggle()"></div>
+                <nav>
+                    <ul>
+                        <li><a href="#init" class="tag" onclick="removeClass()">Inicio</a></li>
+                        <li><a href="#purpose" class="tag" onclick="removeClass()">Propósito</a></li>
+                        <li><a href="#services" class="tag" onclick="removeClass()">Servicios</a></li>
+                        <li><a href="#us" class="tag" onclick="removeClass()"> Conócenos</a></li>
+                        <li><a href="#contact" class="button-contact" onclick="removeClass()">CONTACTO</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="content-header">
+            <div class="container">
+                <h1 class="title"> Tu proyecto en las mejores manos </h1>
+                <p class="content">Agencia de Publicidad Puerto Montt, Sur de Chile.</p>
+                <a class="button-increase" href="#contact">Aumenta la presencia de tu marca</a>
+                <img class="arrow" src="./img/arrow.svg" alt="Flecha apuntando hacia abajo">
+            </div>   
+        </div>
+        <div class="gradient">
+            <img src="./img/gradient.svg" alt="">
+        </div>
+    </header>
+    <main>
+        <section id="purpose">
+            <div class="container">
+                <h2 class="title-section">Misión Vulkano</h2>
+                <p class="content-section">Desarrollar servicios publicitarios de alta calidad para las pequeñas, medianas y grandes empresas a través de un servicio integral, alineados a la vanguardia y necesidades del mercado. </p>
+            </div>
+        </section>
+        <section id="services">
+            <div class="box">
+                <div class="left">
+                    <img src="./img/desarrolloweb.jpg" alt="Imagen de un Notebook">
+                </div>
+                <div class="right">
+                    <div class="container">
+                        <p class="number">1</p>
+                        <h3 class="name-service">Desarrollo Web</h3>
+                        <p class="content-service">Diseñamos y desarrollamos tu página web bajo líneas de vanguardia digital potenciando tus ideas y tu proyecto.</p>
+                        <a href="#contact" class="button-service">COMENZAR</a>
+                    </div>
+                 </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="./img/rrss.jpg" alt="Imagen de un Notebook">
+                </div>
+                <div class="right">
+                    <div class="container">
+                        <p class="number">2</p>
+                        <h3 class="name-service">Manejo de RR.SS</h3>
+                        <p class="content-service">Creamos contenido que conecte con tu público objetivo agregando valor a tu marca.</p>
+                        <a href="#contact" class="button-service">COMENZAR</a>
+                    </div>
+                 </div>
+            </div>
+            <div class="box">
+                <div class="left">
+                    <img src="./img/audiovisual.jpg" alt="Imagen de un Notebook">
+                </div>
+                <div class="right">
+                    <div class="container">
+                        <p class="number">3</p>
+                        <h3 class="name-service">Audiovisual</h3>
+                        <p class="content-service">Generamos material audiviosual publicitario para aumentar la presencia de tu marca en plataformas digitales.</p>
+                        <a href="#contact" class="button-service">COMENZAR</a>
+                    </div>
+                 </div>
+            </div>
+
+
+
+        </section>
+        <section id="us">
+            <div class="container">
+                <div class="title">
+                    <h3 class="us">Conócenos</h3>
+                </div>
+                <div class="center">
+                    <div class="left">
+                        <p class="cite-content">“Apasionados por las ideas creativas buscamos ejecutar cada proyecto de forma única para cada uno de nuestros clientes"</p>
+                        <p class="cite-quote">Jorge Villanueva, Fundador</p>
+                    </div>
+                    <div class="right">
+                        <div class="box">
+                            <img class="portrait" src="./img/JorgeVillanueva.png" alt="Retrato Jorge Villanueva">
+                            <h3 class="name">Jorge Villanueva</h3>
+                            <p class="position">Fundador, Director Ejecutivo</p>
+                            <a target="_blank"  href="https://www.linkedin.com/in/jorge-barrientos-078091184">
+                                <img class="icon" src="./img/linkedin.svg" alt="Link a Linkedin de Jorge Villanueva">
+                            </a>
+                        </div>
+                        <div class="box">
+                            <img class="portrait" src="./img/AaronLeonard.png" alt="Retrato Aaron Leonard">
+                            <h3 class="name">Aaron Leonard</h3>
+                            <p class="position">Co-Fundador, Director Creativo</p>
+                            <a target="_blank"  href="https://www.linkedin.com/in/aaron-leonard-cespedes-7a48a01b4/">
+                                <img class="icon" src="./img/linkedin.svg" alt=" Link a Linkedin de Aaron Leonard">
+                            </a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+        <section id="contact">
+            <div class="container">
+                <div class="up">
+                    <h3 class="title-contact">Comencemos <span> tu proyecto </span></h3>
+                </div>
+                <div class="down">
+                    <form name="contact" method="POST" data-netlify="true"" id="fcontacto">
+                        <div class="row">
+                            <input placeholder="Nombre" type="text" id="name" name="name" required>
+                            <select id="service" name="service" required>
+                                <option value=""disabled selected hidden >Seleccionar Servicio</option>
+                                <option value="DesarrolloWeb">Desarrollo Web</option>
+                                <option value="ManejoRRSS">Manejo RR.SS</option>
+                                <option value="AudioVisual">Audiovisual</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <input  placeholder="Correo Electrónico" type="email" id="email" name="email" required>
+                            <input  placeholder="Número Telefónico" type="tel" id="tel" name="tel" required>
+                        </div>
+                        <div class="row">
+                            <textarea placeholder="¿Que necesitas?" name="msg" maxlength="140" rows="5" id="msg" required></textarea>
+                        </div>
+                        <div class="row">
+                            <input type="submit" value="ENVIAR">
+                          </div>
+                    </form>  
+                </div> 
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section id="social-media">
+            <div class="container">
+                <a href="https://www.linkedin.com/company/agencia-vulkano/" target="_blank">
+                    <img class="icon" src="./img/linkedin.svg" alt="Logo Linkedin">
+                </a>
+                <a href="https://www.facebook.com/Agencia-Vulkano-cl-107949944280657" target="_blank" >
+                    <img class="icon" src="./img/facebook.svg" alt="Logo Facebook">
+                </a>
+                <a href="https://www.instagram.com/vulkanocl/"  target="_blank">
+                    <img class="icon"  src="./img/instagram.svg" alt="Logo Instagram">
+                </a>
+                <a href="https://www.youtube.com/channel/UCm4s2T5SACaZL3rzNeK5J_w/"  target="_blank" >
+                    <img class="icon" src="./img/youtube.svg" alt="Logo Youtube">
+                </a>
+            </div>
+        </section>
+        <section id="autor">
+            <div class="container">
+                <p class="co-autor">design by Vulkano</p>
+                <p class="autor">developer by intersection</p>
+            </div>
+        </section>
+    </footer>
+    </section>
+
+
+    
+    <script>
+        function toggle(){
+            var sec = document.getElementById('sec');
+            //var nav = document.getElementById('navigation');
+            sec.classList.toggle('active')
+            //nav.classList.toggle('active')
+        }
+
+        function removeClass(){
+            var sec = document.getElementById('sec');
+            //var nav = document.getElementById('navigation');
+            sec.classList.remove('active')
+            //nav.classList.toggle('active')
+        }
+        
+        TweenMax.from(".content-header .container .title", 3, {
+            delay: 0.060,
+            opacity: 0,
+            y: 50,
+            ease: Expo.easeInOut
+        });
+        TweenMax.from(".content-header .container .content", 3, {
+            delay: 0.3,
+            opacity: 0,
+            y: 50,
+            ease: Expo.easeInOut
+        });
+    </script>
+
+</body>
+</html>
